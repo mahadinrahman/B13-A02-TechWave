@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:  rgba(26, 11, 46, 1);;
+    background-color: rgba(26, 11, 46, 1);
 }
 
 .nav{
@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    
     
 }
 .intro{
@@ -33,12 +34,20 @@ body{
     color:#FFFFFF;
     background: linear-gradient(47.64deg, #F7E93F,#FB09B4,#9100F8) ;
    font-size: 1.1rem;
+   border: 0px;
 }
-.tech{
+.tech .tech-1{
+    font-size: 2.5rem;
+    color:#FFFFFF;
+    font-weight: 700;
+
+}
+.tech .wave{
     font-size: 2.5rem;
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 .nav img{
     max-width: 1.5rem;
@@ -63,3 +72,57 @@ body{
         margin-left: 20px;
     }
 }
+
+
+.hero-container img{
+    position: relative;
+    
+   
+}
+.hero-bg img{
+    width: 100%;
+   
+}
+
+    
+
+.hero-circle img{
+    
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    top:-530px;
+    right: -470px;
+}
+.microphone img{
+   
+    max-width:110px ;
+    width: 100%;
+    top:-780px;
+    right: -560px;
+}
+
+.hero-container2{
+    text-align: center;
+    
+}
+
+.tech-1{
+font-size: 2.5rem;
+    color:#FFFFFF;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.hero-container2 p{
+    color:#FFFFFF;
+    margin-bottom: 20px;
+}
+.btn-2{
+    padding: 12px 20px;
+    border-radius:10000px ;
+    color:#00FF88;
+    background: none;
+   font-size: 1.1rem;
+   border: 2px solid #00FF88;
+}
+
