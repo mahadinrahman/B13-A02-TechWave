@@ -305,6 +305,7 @@ font-size: 3.5rem;
 .card-container p{
     color: #ffffffb3;
     font-size: .9rem;
+    line-height: 25px;
 }
 .card-container{
     display: grid;
@@ -387,6 +388,7 @@ font-size: 3.5rem;
    color:#ffffffb1;
    padding-right: 24px;
    padding-left: 24px;
+   line-height: 25px;
 }
 .card-episode .min{
     display: flex;
