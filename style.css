@@ -234,7 +234,7 @@ font-size: 3.5rem;
 }
 
 .podcast-number .number{
-    color:#ffffff;
+    color:#ffffffc7;
     font-size: 1.2rem;
 }
 @media screen and (max-width:576px){
@@ -256,3 +256,75 @@ font-size: 3.5rem;
 }
 
 }
+.tech-section{
+    background-color:  rgba(35, 14, 61, 1);
+}
+.tech-container{
+    margin-top: 120px;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 0px;
+    
+}
+
+.tech-container h2{
+    color:#FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    
+
+}
+
+.card-1,.card-2,.card-3,.card-4,.card-5{
+    background-color:rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 40px;
+
+}
+.card-container h3{
+    margin-top:16px ;
+    margin-bottom:16px ;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.card-container p{
+    color: #ffffffb3;
+    font-size: .9rem;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+}
+.card-1{
+    grid-row:span 2 ;
+}
+.card-2{
+    grid-column:span 2 ;
+}
+.card-3{
+    grid-column:span 2 ;
+}
+.card-4{
+    grid-column:span 2 ;
+}
+@media screen and (max-width:576px){
+    .card-container{
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px 20px;
+    
+    
+}
+
+
+}
+
+
