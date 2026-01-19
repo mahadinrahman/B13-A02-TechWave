@@ -410,6 +410,7 @@ font-size: 3.5rem;
     max-width: 1050px;
     margin: 0 auto;
     
+    
 }
 .meet-section h2{
     text-align: center;
@@ -425,6 +426,7 @@ font-size: 3.5rem;
     background-color:rgba(53, 17, 101, 0.4) ;
     border-radius:40px ;
     padding: 40px;
+    margin-bottom: 100px;
 }
 .meet-container img{
     max-width: 200px;
@@ -474,4 +476,59 @@ font-size: 3.5rem;
 
 }
 
+.footer-section{
+    background: url(./assets/footer-bg.png);
+    
+    background-position: center;
+    width:100%;
+    
+   padding: 100px 0;
+   background-size: contain;
+   background-repeat: no-repeat;
+    
+  
+}
+.footer-container{
+    width: 1050px;
+    margin: 0 auto;
+    
+}
+.footer-container h2{
+    text-align: center;
+   margin-bottom: 32px;
+    align-items: center;
+   
+}
+.foo .foo-1{
+    font-size: 4rem;
+    color:#FFFFFF;
+    font-weight: 700;
+
+}
+.foo .foo-wave{
+    font-size: 4rem;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.footer-logo .spotify{
+    display: flex;
+    gap:8px;
+    
+}
+.spotify p{
+    color: #ffffffb5;
+
+}
+.footer-logo{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+   margin-bottom: 65px;
+}
+.small{
+    text-align: center;
+    color: #ffffffbb;
+}
 
