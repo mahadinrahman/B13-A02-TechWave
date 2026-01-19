@@ -195,3 +195,64 @@ font-size: 3.5rem;
 }
 
 }
+
+.podcast-section{
+     max-width:1050px ;
+    margin: 0 auto;
+}
+.about-podcast{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.about-podcast h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin-bottom: 24px;
+
+}
+.about-podcast p{
+    color:#ffffffd6;
+    font-size: .9rem;
+    margin-bottom: 100px;
+    line-height: 25px;
+}
+
+.podcast-number{
+    
+    display: flex;
+    justify-content:space-between;
+    gap:50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.podcast-number .number h3{
+   color:#00FF88;
+   font-size: 3rem;
+   font-weight: 900;
+}
+
+.podcast-number .number{
+    color:#ffffff;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:576px){
+    .podcast-section{
+     width: 100% ;
+    margin: 0 auto;
+}
+.podcast-number{
+    
+    display:block;
+    display:grid ;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.about-podcast{
+   
+    max-width: 100%;
+    margin: 0 20px;
+}
+
+}
