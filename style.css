@@ -406,4 +406,72 @@ font-size: 3.5rem;
 
 }
 
+.meet-section{
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+.meet-section h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.meet-container{
+    display: flex;
+    justify-content: flex-start;
+    gap:24px;
+    background-color:rgba(53, 17, 101, 0.4) ;
+    border-radius:40px ;
+    padding: 40px;
+}
+.meet-container img{
+    max-width: 200px;
+    
+}
+ .alex h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+.alex p{
+    color: #ffffffc2;
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+    
+}
+.alex .pic{
+    display: flex;
+    gap:20px;
+    
+}
+.alex img{
+    border-radius: 50%;
+    border: 1px solid rgba(83, 60, 114, 1);
+    padding: 10px;
+    max-width: 40px;
+
+}
+@media screen and (max-width:576px) {
+    .meet-section{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.meet-container{
+    flex-direction: column;
+}
+.meet-container img{
+   position: relative;
+   right: -90px;
+}
+.alex{
+    text-align: center;
+}
+
+}
+
 
