@@ -384,7 +384,11 @@ font-size: 3.5rem;
     margin-top: 12px;
      padding-right: 24px;
    padding-left: 24px;
+   color:#00FF88;
 
+}
+.min p{
+    color:#00FF88;
 }
 @media screen and (max-width:576px) {
     .episode-container{
