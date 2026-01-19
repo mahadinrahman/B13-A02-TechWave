@@ -172,21 +172,21 @@ font-size: 3.5rem;
 }
 .hero-container .hero-circle{
     width: 100%;
-    max-width: 170px;
-    right:-160px;
-    top:100px;
+   max-width: 35%;
+    right:-10rem;
+    top:6.25rem;
 }
 .hero-container .microphone{
     width: 100%;
-    max-width: 70px;
-    right:-35px;
-    top: 70px;
+    max-width: 15%;
+    right:-2.5rem;
+    top: 4.37rem;
 }
 .hero-container .new{
    padding:4px 8px;
     position: relative;
-    top:-35px;
-    right:-40px;
+    top:-2.18rem;
+    right:-2.5rem;
 }
 .hero-container2{
     
