@@ -327,4 +327,64 @@ font-size: 3.5rem;
 
 }
 
+.episode-section{
+   max-width: 1050px;
+   margin: 120px auto;
+   
+}
+
+.episode-section h2{
+    font-size:3rem ;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.episode-container{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.card-episode{
+    width:100%;
+    max-width: 330px;
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 24px;
+   
+    justify-content: center;
+    padding-bottom: 24px;
+    
+   
+
+}
+
+.card-episode iframe{
+  border-radius: 24px;
+}
+.card-episode h3{
+   font-size: 1.5rem; 
+   font-weight: 700;
+   color:#ffffff;
+   margin-top: 24px;
+   margin-bottom: 12px;
+    padding-right: 24px;
+   padding-left: 24px;
+
+}
+.card-episode p{
+   color:#ffffffb1;
+   padding-right: 24px;
+   padding-left: 24px;
+}
+.card-episode .min{
+    display: flex;
+    
+    margin-top: 12px;
+     padding-right: 24px;
+   padding-left: 24px;
+
+}
+
 
