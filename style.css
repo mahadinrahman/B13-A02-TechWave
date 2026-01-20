@@ -37,6 +37,12 @@ body{
     background: linear-gradient(47.64deg, #F7E93F,#FB09B4,#9100F8) ;
    font-size: 1.1rem;
    border: 0px;
+   transition: all 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background: blueviolet;
+   transform: scale(1.1); 
 }
 .tech .tech-1{
     font-size: 2.5rem;
@@ -99,6 +105,11 @@ body{
     top: -220px;
     right:-275px;
     border:none;
+    transition: all 0.3s ease-in-out;
+}
+.new:hover{
+    background:blueviolet;
+   transform: scale(1.1); 
 }
 
 .hero-container img{
@@ -135,6 +146,7 @@ font-size: 3.5rem;
     color:#FFFFFF;
     margin-bottom: 24px;
 }
+
 .btn-2{
     padding: 12px 20px;
     border-radius:10000px ;
@@ -142,7 +154,13 @@ font-size: 3.5rem;
     background: none;
    font-size: 1.1rem;
    border: 2px solid #00FF88;
+   margin-left: 10px;
+   transition: all 0.4s ease-in-out;
    
+}
+.btn-2:hover{
+    background: cadetblue;
+   transform: scale(1.1); 
 }
 .btn-2 img{
     margin-right: 10px;
@@ -154,8 +172,17 @@ font-size: 3.5rem;
     background: linear-gradient(47.64deg, #F7E93F,#FB09B4,#9100F8) ;
    font-size: 1.1rem;
    border: 0px;
+   margin-right: 10px;
+    transition: all 0.4s ease-in-out;
   
 }
+.btn-1:hover{
+    background: blueviolet;
+   transform: scale(1.1); 
+}
+
+
+
 
 .btn-1 img{
     margin-right: 10px;
@@ -392,7 +419,10 @@ font-size: 3.5rem;
 }
 .card-episode .min{
     display: flex;
-    
+    width: 100%;
+   height: 100%;
+   max-width: 20px;
+   max-height: 20px;
     margin-top: 12px;
      padding-right: 24px;
    padding-left: 24px;
