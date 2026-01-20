@@ -43,6 +43,7 @@ body{
 .btn:hover{
     background: blueviolet;
    transform: scale(1.1); 
+    cursor:pointer;
 }
 .tech .tech-1{
     font-size: 2.5rem;
@@ -110,6 +111,7 @@ body{
 .new:hover{
     background:blueviolet;
    transform: scale(1.1); 
+   cursor:pointer ;
 }
 
 .hero-container img{
@@ -156,11 +158,13 @@ font-size: 3.5rem;
    border: 2px solid #00FF88;
    margin-left: 10px;
    transition: all 0.4s ease-in-out;
+
    
 }
 .btn-2:hover{
     background: cadetblue;
    transform: scale(1.1); 
+    cursor:pointer;
 }
 .btn-2 img{
     margin-right: 10px;
@@ -179,6 +183,7 @@ font-size: 3.5rem;
 .btn-1:hover{
     background: blueviolet;
    transform: scale(1.1); 
+    cursor:pointer;
 }
 
 
